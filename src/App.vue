@@ -1,19 +1,21 @@
 <script>
 import AppHome from './components/AppHome.vue';
 import TicketsList from './components/TicketsList.vue';
+import NewTicket from './components/NewTicket.vue';
 
 export default {
   name: 'App',
   components: {
     AppHome,
-    TicketsList
+    TicketsList,
+    NewTicket
   }
 }
 </script>
 
 <template>
   <AppHome />
-  <TicketsList />
+  <router-view></router-view>
 </template>
 
 <style lang="scss"></style>
