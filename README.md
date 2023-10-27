@@ -1,3 +1,5 @@
-# Vue Template 
+# Ticket System Frontend
 
-Template standard per progetti Vue con option API e SASS
+Per avviare il progetto: 
+    npm i 
+    npm run dev

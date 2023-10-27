@@ -1,16 +1,19 @@
 <script>
-import HelloApp from './components/HelloApp.vue';
+import AppHome from './components/AppHome.vue';
+import TicketsList from './components/TicketsList.vue';
 
 export default {
   name: 'App',
   components: {
-    HelloApp
+    AppHome,
+    TicketsList
   }
 }
 </script>
 
 <template>
-  <HelloApp />
+  <AppHome />
+  <TicketsList />
 </template>
 
 <style lang="scss"></style>

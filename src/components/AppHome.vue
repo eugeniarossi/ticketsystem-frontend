@@ -1,15 +1,14 @@
 <script>
+
 export default {
-    name: 'HelloApp'
+    name: 'AppHome',
 }
 </script>
 
 <template>
-    <h2>Hello</h2>
+    <h2 class="text-center py-4">Ticket System</h2>
 </template>
 
 <style scoped lang="scss">
-    h2 {
-        color: blue;
-    }
+
 </style>
